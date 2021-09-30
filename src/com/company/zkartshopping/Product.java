@@ -4,7 +4,7 @@ public class Product {
     private String category;
     private String brand;
     private String model;
-    private int price;
+    private long price;
     private int stock;
 
     public String getCategory() {
@@ -31,11 +31,11 @@ public class Product {
         this.model = model;
     }
 
-    public int getPrice() {
+    public long getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(long price) {
         this.price = price;
     }
 

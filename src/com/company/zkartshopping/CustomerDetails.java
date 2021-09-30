@@ -6,7 +6,7 @@ import java.util.*;
 public class CustomerDetails {
     public static List<String> readCustomerDetailsFromFile() {
         List<String> list = new ArrayList<>();
-        File file = new File("/home/inc11/IdeaProjects/ZKart/src/com/company/zkartshopping/customerdetails");
+        File file = new File("C:\\Users\\elcot\\IdeaProjects\\incubation\\ZKart\\src\\com\\company\\zkartshopping\\customerdetails");
         try (FileReader fr = new FileReader(file);
              BufferedReader br = new BufferedReader(fr)) {
             String line;
@@ -22,7 +22,7 @@ public class CustomerDetails {
     }
     public static List<String> readProductDetailsFromFile() {
         List<String> list = new ArrayList<>();
-        File file = new File("/home/inc11/IdeaProjects/ZKart/src/com/company/zkartshopping/z-kart_db");
+        File file = new File("C:\\Users\\elcot\\IdeaProjects\\incubation\\ZKart\\src\\com\\company\\zkartshopping\\customerdetails");
         try (FileReader fr = new FileReader(file);
              BufferedReader br = new BufferedReader(fr)) {
             String line;
